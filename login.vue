@@ -57,6 +57,8 @@ export default {
       // console.log('da vao logout')
       sessionStorage.clear()
       this.login = false
+      this.user.name = null
+      this.user.pass = null
       console.log('Đã đăng xuất thành công')
     }
   },
